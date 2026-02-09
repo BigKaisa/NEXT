@@ -24,7 +24,7 @@ from sklearn.preprocessing import StandardScaler
 # Configuration
 # -----------------------------
 
-DATA_FILE = r"C:\Users\fcu1\Downloads\mockDataV2.json"
+DATA_FILE = r".\mockDataV2.json"
 
 
 # DBSCAN hyperparameters
@@ -134,3 +134,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
